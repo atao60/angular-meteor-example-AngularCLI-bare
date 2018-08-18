@@ -1,27 +1,28 @@
-# Demo7
+# angular-meteor-example-AngularCLI
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.8.
+Demo about using `meteor --bare` to set up a Meteor AngularCLI example from scratch. See [[examples/AngularCLI]: ???](https://github.com/Urigo/angular-meteor/issues/???).
 
-## Development server
+## Install and run
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+```bash
 
-## Code scaffolding
+git clone https://github.com/atao60/angular-meteor-example-AngularCLI-bare.git demo
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+cd demo
 
-## Build
+npm install
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+npm run start:local:dev
 
-## Running unit tests
+```
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+As it is, the application is not buildable.
 
-## Running end-to-end tests
+```bash
+(cd api && meteor remove static-html)
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+npm run start:local:dev
 
-## Further help
+```
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+Go to http://localhost:4200
