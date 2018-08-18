@@ -10,6 +10,9 @@ Cf.
 
 ```bash
 
+uname -a
+# Linux [...] 4.15.0-32-generic #35~16.04.1-Ubuntu SMP Fri Aug 10 21:54:34 UTC 2018 x86_64 x86_64 x86_64 GNU/Linux
+
 node -v
 # v8.11.3
 
